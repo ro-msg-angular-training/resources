@@ -51,6 +51,27 @@ Further Resources:
 
 ## 1. Angular Intro
 
+Goal: become familiar with Angular.
+
+Required Reading:
+
+ - [Single vs Multiple Page Applications](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
+ - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+ - [Angular Quick Start](https://angular.io/guide/quickstart)
+
+Online Shop:
+
+ > Install the *Angular CLI* with the help of the NodeJS package manager: `npm install -g @angular/cli`.
+ > 
+ > Create a new project in the root of your git repository by using the CLI: `ng new online-shop`.
+ > 
+ > Navigate inside the project folder, Start the project and open its home page in your browser: `ng serve --start`.
+
+Further Resources:
+
+ - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+ - [Difference between AngularJS and Angular 2 / 4](https://www.simplilearn.com/angularjs-vs-angular-2-vs-angular-4-differences-article)
+
 ## 2. Components
 
 ## 3. Routing
