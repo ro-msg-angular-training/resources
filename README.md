@@ -5,11 +5,11 @@
  - [Working Mode](#working-mode)
  - [Environment](#environment)
  - [Online Shop](#online-shop)
- - [0. HTML, CSS, JS](#0_html_css_js)
- - [1. SPA and Angular Intro](#1_spa_and_angular_intro)
- - [2. Components](#2_components)
- - [3. Routing](#3_routing)
- - [4. Services using HttpClient](#4_services_using_httpclient)
+ - [0. HTML and CSS Basics](#0-html-css-js)
+ - [1. Angular Intro](#-1angular-intro)
+ - [2. Components](#2-components)
+ - [3. Routing](#3-routing)
+ - [4. Services using HttpClient](#4-services-using-httpclient)
 
 ## Working Mode
 
@@ -32,9 +32,9 @@ The application will simply browse through a catalog of products. It will suppor
  - Updating an existing product,
  - Deleting a product.
 
-## 0. HTML, CSS, JS
+## 0. HTML and CSS Basics
 
-## 1. SPA and Angular Intro
+## 1. Angular Intro
 
 ## 2. Components
 
