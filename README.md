@@ -74,6 +74,29 @@ Further Resources:
 
 ## 2. Components
 
+Goal: get a grip on the basics of Angular Components
+
+Required Reading:
+
+- [Introduction to components](https://angular.io/guide/architecture-components)
+- [Angular Components tutorial](https://www.tutorialspoint.com/angular6/angular6_components.htm)
+
+Online Shop:
+
+For the moment, we will use mock data across all components. The data will be defined locally in the Typescript file associated to a component.
+
+ > Create a new Angular Component for displaying a single product's details. You can use the CLI command `ng generate component <component-name>` to achieve this.
+ >
+ > Create an Angular component for displaying a list of products. Hint: use the `*ngFor` directive.
+ >
+ > Add some CSS to each of the components to make them look nicer.
+ 
+ Further Resources:
+ 
+ - [The `*ngFor` directive](https://angular.io/guide/displaying-data#showing-an-array-property-with-ngfor)
+ - [Types of Bindings](https://angular.io/guide/template-syntax#binding-syntax-an-overview)
+ - [Event Binding](https://angular.io/guide/template-syntax#event-binding-event)
+
 ## 3. Routing
 
 ## 4. Services using HttpClient
