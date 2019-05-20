@@ -99,4 +99,26 @@ For the moment, we will use mock data across all components. The data will be de
 
 ## 3. Routing
 
+Goal: understand the basics of Angular Routing and add routing to your project
+
+Required Reading:
+
+ - ["The Basics" chapter from Angular Routing official documentation](https://angular.io/guide/router#the-basics)
+ - [Tour of Heroes Routing tutorial](https://angular.io/tutorial/toh-pt5)
+ 
+ Online Shop:
+ 
+ > Add a button next to each product from the product list. You can use it to navigate to a specific product's detail page.
+ >
+ > Add Routing to your project and implement a navigation between the list of all products and the product detail page. Use [`<router-outlet>`](https://angular.io/guide/router#router-outlet) as a placeholder for the currently displayed component in your app.
+ > 
+ > Add a navigation which redirects users from the default path ('/') to the '/products' page and displays by default the list of all products.
+ >
+ > Enhance your app with routing parameters, such that you can navigate to a specific product's detail page. Hint: Use [`snapshot`](https://angular.io/guide/router#snapshot-the-no-observable-alternative) to capture the product's ID as a navigation parameter and display it in the details page. 
+ 
+ Further Resources:
+ 
+  - [Routing with Observable](https://angular.io/guide/router#activated-route-in-action)
+  - [Route guards: protecting your app's routes](https://angular.io/guide/router#milestone-5-route-guards)
+ 
 ## 4. Services using HttpClient
