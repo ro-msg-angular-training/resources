@@ -122,3 +122,11 @@ Required Reading:
   - [Route guards: protecting your app's routes](https://angular.io/guide/router#milestone-5-route-guards)
  
 ## 4. Services using HttpClient
+
+## 5. Forms and Validation
+
+## 6. Internationalization 
+
+## 7. Authorization and Guards
+
+## OPT-1. ngRX for State Management
