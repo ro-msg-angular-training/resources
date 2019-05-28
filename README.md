@@ -123,6 +123,26 @@ Required Reading:
  
 ## 4. Services using HttpClient
 
+Goal: practice with Angular HttpClient by connecting your frontend with the backend server
+
+Required Reading:
+
+- [Quick start guide](https://blog.angular-university.io/angular-http/)
+- [Angular Http tutrial](https://www.tutorialspoint.com/angular6/angular6_http_client.htm)
+- [Official docs](https://angular.io/guide/http)
+
+Online Shop:
+
+ > Required for solving CORS errors: [Proxying a backend server](https://angular.io/guide/build#proxying-to-a-backend-server)
+ >
+ > Use HttpClient to perform GET requests and display the list of products and a single product's details.
+ >
+ > Implement a "Delete" functionality for removing products in the backend. 
+
+Further Resources:
+
+ - [Http error handling](https://angular.io/guide/http#error-handling)
+ 
 ## 5. Forms and Validation
 
 ## 6. Internationalization 
