@@ -145,6 +145,17 @@ Further Resources:
  
 ## 5. Forms and Validation
 
+Goal: dive into Angular Forms and add them to your project
+
+Required Reading:
+
+ - [Forms overview](https://angular.io/guide/forms-overview)
+ - [Forms tutorial](https://www.tutorialspoint.com/angular6/angular6_forms.htm)
+
+ > Add Forms to your project for updating a product's details. You can choose either the Template Driven (TD) or reactive / Model Driven  (MD) approach. 
+ >
+ > Add some validation to your form (ex: check that the fields are not empty, that the price and weight inputs contain only numbers, etc.)
+
 ## 6. Internationalization 
 
 ## 7. Authorization and Guards
