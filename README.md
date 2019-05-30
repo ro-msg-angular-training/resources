@@ -11,6 +11,7 @@
  - [3. Routing](#3-routing)
  - [4. Services using HttpClient](#4-services-using-httpclient)
  - [5. Forms and Validation](#5-forms-and-validation)
+ - [7. Authorization and Guards](#7-authorization-and-guards)
 
 ## Working Mode
 
@@ -153,6 +154,8 @@ Required Reading:
  - [Forms overview](https://angular.io/guide/forms-overview)
  - [Forms tutorial](https://www.tutorialspoint.com/angular6/angular6_forms.htm)
 
+Online Shop:
+
  > Add Forms to your project for updating a product's details. You can choose either the Template Driven (TD) or reactive / Model Driven  (MD) approach. 
  >
  > Add some validation to your form (ex: check that the fields are not empty, that the price and weight inputs contain only numbers, etc.)
@@ -160,5 +163,17 @@ Required Reading:
 ## 6. Internationalization 
 
 ## 7. Authorization and Guards
+
+Goal: get familiar with Route Guards and protect your app's routes from unauthorized access
+
+Required Reading:
+
+ - [Route Guards](https://angular.io/guide/router#milestone-5-route-guards)
+
+Online Shop:
+
+ >Add Route Guards to your app in order to restrict unauthorized user access to a product's details page. 
+ >
+ >You can use a mock property inside the product detail component's typescript file to simulate whether a user is authorized to access the route.
 
 ## OPT-1. ngRX for State Management
