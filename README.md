@@ -10,6 +10,7 @@
  - [2. Components](#2-components)
  - [3. Routing](#3-routing)
  - [4. Services using HttpClient](#4-services-using-httpclient)
+ - [5. Forms and Validation](#5-forms-and-validation)
 
 ## Working Mode
 
