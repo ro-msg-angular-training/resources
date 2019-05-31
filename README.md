@@ -176,4 +176,6 @@ Online Shop:
  >
  >You can use a mock property inside the product detail component's typescript file to simulate whether a user is authorized to access the route.
 
-## OPT-1. ngRX for State Management
+## OPT-1. Use Material Components
+
+## OPT-2. ngRX for State Management
