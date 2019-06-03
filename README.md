@@ -12,6 +12,7 @@
  - [4. Services using HttpClient](#4-services-using-httpclient)
  - [5. Forms and Validation](#5-forms-and-validation)
  - [7. Authorization and Guards](#7-authorization-and-guards)
+ - [Material Components](OPT-1.-use-material-components)
 
 ## Working Mode
 
@@ -182,5 +183,7 @@ Online Shop:
  >You can use a mock property inside the product detail component's typescript file to simulate whether a user is authorized to access the route.
 
 ## OPT-1. Use Material Components
+
+Install and use [Material Design](https://material.angular.io/guide/getting-started) in your Online Shop app. Replace your "plain" HTML components with [Material Components](https://material.angular.io/components/categories).
 
 ## OPT-2. ngRX for State Management
