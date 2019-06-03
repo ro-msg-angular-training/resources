@@ -12,7 +12,7 @@
  - [4. Services using HttpClient](#4-services-using-httpclient)
  - [5. Forms and Validation](#5-forms-and-validation)
  - [7. Authorization and Guards](#7-authorization-and-guards)
- - [Material Components](OPT-1.-use-material-components)
+ - [Material Components](#opt-1-use-material-components)
 
 ## Working Mode
 
