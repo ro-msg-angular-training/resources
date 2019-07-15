@@ -1,0 +1,359 @@
+{
+    "0": {
+        "id": 0,
+        "name": "Notebook Basic 15",
+        "category": "Laptops",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1000.jpg",
+        "price": 956
+    },
+    "1": {
+        "id": 1,
+        "name": "Notebook Basic 17",
+        "category": "Laptops",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1001.jpg",
+        "price": 1249
+    },
+    "2": {
+        "id": 2,
+        "name": "Notebook Basic 18",
+        "category": "Laptops",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1002.jpg",
+        "price": 1570
+    },
+    "3": {
+        "id": 3,
+        "name": "Notebook Basic 19",
+        "category": "Laptops",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1003.jpg",
+        "price": 1650
+    },
+    "4": {
+        "id": 4,
+        "name": "ITelO Vault",
+        "category": "Accessories",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1007.jpg",
+        "price": 299
+    },
+    "5": {
+        "id": 5,
+        "name": "Notebook Professional 15",
+        "category": "Accessories",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1010.jpg",
+        "price": 1999
+    },
+    "6": {
+        "id": 6,
+        "name": "Notebook Professional 17",
+        "category": "Laptops",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1011.jpg",
+        "price": 2299
+    },
+    "7": {
+        "id": 7,
+        "name": "ITelO Vault Net",
+        "category": "Accessories",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1020.jpg",
+        "price": 459
+    },
+    "8": {
+        "id": 8,
+        "name": "ITelO Vault SAT",
+        "category": "Accessories",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1021.jpg",
+        "price": 149
+    },
+    "9": {
+        "id": 9,
+        "name": "Comfort Easy",
+        "category": "Accessories",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1022.jpg",
+        "price": 1679
+    },
+    "10": {
+        "id": 10,
+        "name": "Comfort Senior",
+        "category": "Accessories",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1023.jpg",
+        "price": 512
+    },
+    "11": {
+        "id": 11,
+        "name": "Ergo Screen E-I",
+        "category": "Flat Screen Monitors",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1030.jpg",
+        "price": 230
+    },
+    "12": {
+        "id": 12,
+        "name": "Ergo Screen E-II",
+        "category": "Flat Screen Monitors",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1031.jpg",
+        "price": 285
+    },
+    "13": {
+        "id": 13,
+        "name": "Ergo Screen E-III",
+        "category": "Flat Screen Monitors",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1032.jpg",
+        "price": 345
+    },
+    "14": {
+        "id": 14,
+        "name": "Flat Basic",
+        "category": "Flat Screen Monitors",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1035.jpg",
+        "price": 399
+    },
+    "15": {
+        "id": 15,
+        "name": "Flat Future",
+        "category": "Flat Screen Monitors",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1036.jpg",
+        "price": 430
+    },
+    "16": {
+        "id": 16,
+        "name": "Flat XL",
+        "category": "Flat Screen Monitors",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1037.jpg",
+        "price": 1230
+    },
+    "17": {
+        "id": 17,
+        "name": "Laser Professional Eco",
+        "category": "Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1040.jpg",
+        "price": 830
+    },
+    "18": {
+        "id": 18,
+        "name": "Laser Basic",
+        "category": "Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1041.jpg",
+        "price": 490
+    },
+    "19": {
+        "id": 19,
+        "name": "Laser Allround",
+        "category": "Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1042.jpg",
+        "price": 349
+    },
+    "20": {
+        "id": 20,
+        "name": "Ultra Jet Super Color",
+        "category": "Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1050.jpg",
+        "price": 139
+    },
+    "21": {
+        "id": 21,
+        "name": "Ultra Jet Mobile",
+        "category": "Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1051.jpg",
+        "price": 99
+    },
+    "22": {
+        "id": 22,
+        "name": "Ultra Jet Super Highspeed",
+        "category": "Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1052.jpg",
+        "price": 170
+    },
+    "23": {
+        "id": 23,
+        "name": "Multi Print",
+        "category": "Multifunction Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1055.jpg",
+        "price": 99
+    },
+    "24": {
+        "id": 24,
+        "name": "Multi Color",
+        "category": "Multifunction Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1056.jpg",
+        "price": 119
+    },
+    "25": {
+        "id": 25,
+        "name": "Cordless Mouse",
+        "category": "Mice",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1060.jpg",
+        "price": 9
+    },
+    "26": {
+        "id": 26,
+        "name": "Speed Mouse",
+        "category": "Mice",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1061.jpg",
+        "price": 7
+    },
+    "27": {
+        "id": 27,
+        "name": "Track Mouse",
+        "category": "Mice",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1062.jpg",
+        "price": 11
+    },
+    "28": {
+        "id": 28,
+        "name": "Ergonomic Keyboard",
+        "category": "Keyboards",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1063.jpg",
+        "price": 14
+    },
+    "29": {
+        "id": 29,
+        "name": "Internet Keyboard",
+        "category": "Keyboards",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1064.jpg",
+        "price": 16
+    },
+    "30": {
+        "id": 30,
+        "name": "Media Keyboard",
+        "category": "Keyboards",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1065.jpg",
+        "price": 26
+    },
+    "31": {
+        "id": 31,
+        "name": "Mousepad",
+        "category": "Mousepads",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1066.jpg",
+        "price": 6
+    },
+    "32": {
+        "id": 32,
+        "name": "Ergo Mousepad",
+        "category": "Mousepads",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1067.jpg",
+        "price": 8
+    },
+    "33": {
+        "id": 33,
+        "name": "Designer Mousepad",
+        "category": "Mousepads",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1068.jpg",
+        "price": 12
+    },
+    "34": {
+        "id": 34,
+        "name": "Universal card reader",
+        "category": "Computer System Accessories",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1069.jpg",
+        "price": 14
+    },
+    "35": {
+        "id": 35,
+        "name": "Proctra X",
+        "category": "Graphic Cards",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1070.jpg",
+        "price": 70
+    },
+    "36": {
+        "id": 36,
+        "name": "Gladiator MX",
+        "category": "Graphic Cards",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1071.jpg",
+        "price": 81
+    },
+    "37": {
+        "id": 37,
+        "name": "Hurricane GX",
+        "category": "Graphic Cards",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1072.jpg",
+        "price": 101
+    },
+    "38": {
+        "id": 38,
+        "name": "Hurricane GX/LN",
+        "category": "Graphic Cards",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1073.jpg",
+        "price": 139
+    },
+    "39": {
+        "id": 39,
+        "name": "Photo Scan",
+        "category": "Scanners",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1080.jpg",
+        "price": 129
+    },
+    "40": {
+        "id": 40,
+        "name": "Power Scan",
+        "category": "Scanners",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1081.jpg",
+        "price": 89
+    },
+    "41": {
+        "id": 41,
+        "name": "Jet Scan Professional",
+        "category": "Scanners",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1082.jpg",
+        "price": 169
+    },
+    "42": {
+        "id": 42,
+        "name": "Jet Scan Professional",
+        "category": "Scanners",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1083.jpg",
+        "price": 189
+    },
+    "43": {
+        "id": 43,
+        "name": "Copymaster",
+        "category": "Multifunction Printers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1085.jpg",
+        "price": 1499
+    },
+    "44": {
+        "id": 44,
+        "name": "Surround Sound",
+        "category": "Speakers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1090.jpg",
+        "price": 39
+    },
+    "45": {
+        "id": 45,
+        "name": "Blaster Extreme",
+        "category": "Speakers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1091.jpg",
+        "price": 26
+    },
+    "46": {
+        "id": 46,
+        "name": "Sound Booster",
+        "category": "Speakers",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1092.jpg",
+        "price": 45
+    },
+    "47": {
+        "id": 47,
+        "name": "Smart Office",
+        "category": "Software",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1100.jpg",
+        "price": 89
+    },
+    "48": {
+        "id": 48,
+        "name": "Smart Design",
+        "category": "Software",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1101.jpg",
+        "price": 79
+    },
+    "49": {
+        "id": 49,
+        "name": "Smart Network",
+        "category": "Software",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1102.jpg",
+        "price": 69
+    },
+    "50": {
+        "id": 50,
+        "name": "Smart Multimedia",
+        "category": "Software",
+        "image": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/documentation/sdk/images/HT-1103.jpg",
+        "price": 77
+    }
+}

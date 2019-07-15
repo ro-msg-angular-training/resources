@@ -11,8 +11,9 @@
  - [3. Routing](#3-routing)
  - [4. Services using HttpClient](#4-services-using-httpclient)
  - [5. Forms and Validation](#5-forms-and-validation)
- - [7. Authorization and Guards](#7-authorization-and-guards)
- - [Material Components](#opt-1-use-material-components)
+ - [6. Authorization and Guards](#6-authorization-and-guards)
+ - [OPT-1. Material Components](#opt-1-use-material-components)
+ - [OPT-2. Internationalization](#opt-2-internationalization)
 
 ## Working Mode
 
@@ -27,6 +28,12 @@ All the code written must be published on GitHub. Access the [this link](https:/
 You can work using your local environment:
  - You need to install [NodeJS](https://nodejs.org/en/) and [VSCode](https://code.visualstudio.com/download).
 
+In the `backend` folder you can find a server-side implementation for the online shop. Tu run this server perform the following:
+ - Open the `backend` folder in your terminal
+ - `npm ci` (only needed the first time your run the server)
+ - `npm start`
+ - Open [http://localhost:3000](http://localhost:3000) in your browser.
+
 ## Online Shop
 The application will simply browse through a catalog of products. It will support:
 
@@ -35,10 +42,13 @@ The application will simply browse through a catalog of products. It will suppor
  - Updating an existing product,
  - Deleting a product.
  
-The online shop has a "shoping cart" functionality:
+The online shop has a "shopping cart" functionality:
  - The user may add items into the cart,
  - He may increment and decrement the quantity of each product or even remove a product completely from the cart,
  - Lastly, he may checkout the cart and place an order (resulting in the creation of an order in the backend).
+
+Mockups describing the user interface structure can be found in the [mockups](./mockups/mockups.pdf) folder.
+These mockups should be used as a guideline, but improvements or deviations from them is allowed. 
 
 ## 0. HTML and CSS Basics
 
@@ -118,6 +128,8 @@ Required Reading:
  
  > Add a button next to each product from the product list. You can use it to navigate to a specific product's detail page.
  >
+ > From the detail page of the product, the user may add it to his shopping cart (by pressing a button).
+ >
  > Add Routing to your project and implement a navigation between the list of all products and the product detail page. Use [`<router-outlet>`](https://angular.io/guide/router#router-outlet) as a placeholder for the currently displayed component in your app.
  > 
  > Add a navigation which redirects users from the default path ('/') to the '/products' page and displays by default the list of all products.
@@ -141,19 +153,22 @@ Required Reading:
 
 Online Shop:
 
- > Required for solving CORS errors: [Proxying a backend server](https://angular.io/guide/build#proxying-to-a-backend-server)
+ > Use HttpClient to read the products from the backend to fill in the product list. 
+ > 
+ > When navigating to the product detail page, read the product information from the backend.
  >
- > Use HttpClient to perform GET requests and display the list of products and a single product's details.
+ > Add a new "Delete" button on the detail page, which calls the backend to remove a product from the catalogue.
  >
- > Implement a "Delete" functionality for removing products in the backend. 
+ > Add a new "Checkout" button on the shopping cart page, which creates a new order on the backend.
 
 Further Resources:
 
+ - [CORS: Proxy-ing a backend server](https://angular.io/guide/build#proxying-to-a-backend-server)
  - [Http error handling](https://angular.io/guide/http#error-handling)
  
 ## 5. Forms and Validation
 
-Goal: dive into Angular Forms and add them to your project
+Goal: dive into Angular Forms and add them to your project.
 
 Required Reading:
 
@@ -162,15 +177,19 @@ Required Reading:
 
 Online Shop:
 
- > Add Forms to your project for updating a product's details. You can choose either the Template Driven (TD) or reactive / Model Driven  (MD) approach. 
+ > Add a new "Edit" button on the detail page. Pressing it should open a new view, which uses reactive forms to update the properties of the product. The view should have two buttons: "Cancel" (which undos all the changes) and "Save" (which calls the backend to persist the changes).
  >
  > Add some validation to your form (ex: check that the fields are not empty, that the price and weight inputs contain only numbers, etc.)
+ >
+ > Also create a new "Add" button on the product list. Pressing this button should open a view for creating a new product (which the same structure and buttons as the edit view).
 
-## 6. Internationalization 
+Further Resources:
+
+ - [Custom form controls](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html)
 
 ## 7. Authorization and Guards
 
-Goal: get familiar with Route Guards and protect your app's routes from unauthorized access
+Goal: get familiar with Route Guards and protect your app's routes from unauthorized access.
 
 Required Reading:
 
@@ -178,12 +197,38 @@ Required Reading:
 
 Online Shop:
 
- >Add Route Guards to your app in order to restrict unauthorized user access to a product's details page. 
+ > Create a new login view, containing a text input for the username, a password input for the password and a login button.
  >
- >You can use a mock property inside the product detail component's typescript file to simulate whether a user is authorized to access the route.
+ > Automatically redirect the user to the login view each time he opens or refreshes the application. When pressing the login button, send an appropriate request to the backend. If the request succeeds, redirect the user to the product page, otherwise display an error message.
+ >
+ > Use the roles returned by the backend to disable the edit, create and delete buttons if the user is not an administrator. Only allow customers to view the shopping cart and to add products in it.
+
+Further Resources:
+
+ - [Angular Role-based Authorization](https://jasonwatmore.com/post/2018/11/22/angular-7-role-based-authorization-tutorial-with-example)
 
 ## OPT-1. Use Material Components
 
-Install and use [Material Design](https://material.angular.io/guide/getting-started) in your Online Shop app. Replace your "plain" HTML components with [Material Components](https://material.angular.io/components/categories).
+Required Reading:
 
-## OPT-2. ngRX for State Management
+ - [Material - Introduction](https://material.io/design/introduction/)
+
+Online Shop:
+
+> Install and use [Material Design](https://material.angular.io/guide/getting-started) in your Online Shop app. Replace your "plain" HTML components with [Material Components](https://material.angular.io/components/categories).
+
+## OPT-2. Internationalization
+
+Goal: Translate the user interface in multiple languages.
+
+Required Reading:
+
+ - [Angular: i18n](https://angular.io/guide/i18n)
+
+Online Shop:
+
+ > Translate all the labels, headings, titles and buttons of our shop in English and Romanian.
+
+Further Resources:
+
+ - [How to use Internationalization (i18n) in Angular](https://alligator.io/angular/internationalization/)
