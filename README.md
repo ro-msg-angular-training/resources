@@ -187,7 +187,7 @@ Further Resources:
 
  - [Custom form controls](https://blog.thoughtram.io/angular/2016/07/27/custom-form-controls-in-angular-2.html)
 
-## 7. Authorization and Guards
+## 6. Authorization and Guards
 
 Goal: get familiar with Route Guards and protect your app's routes from unauthorized access.
 
@@ -232,3 +232,54 @@ Online Shop:
 Further Resources:
 
  - [How to use Internationalization (i18n) in Angular](https://alligator.io/angular/internationalization/)
+
+## OPT-3. Simple NGRX
+
+Goal: Use NGRX for state management.
+
+Required Reading:
+
+ - [Angular: NGRX a clean and clear Introduction](https://medium.com/frontend-fun/angular-ngrx-a-clean-and-clear-introduction-4ed61c89c1fc)
+ - [Getting started with NGRX](https://ngrx.io/guide/store)
+
+Online Shop:
+
+ > Add NGRX to your app by:
+ >  - Creating a reducer for each page,
+ >  - Adding actions for each user input handler, data load event, etc.
+ >  - Adding effects to react on the data loading actions and call the services,
+ >  - Dispatching the actions and selecting the state **only** inside the smart components.
+ >
+ > Hints:
+ >  - Make sure to also have a loading flag indicator in each page's state,
+ >  - Use the async pipe inside the smart components to not pass `Observable`s to dumb components,
+ >  - Install the [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) Chrome plugin to be able to debug your store.
+
+Further Resources:
+ - [NGRX Tips and Tricks](https://blog.angularindepth.com/ngrx-tips-tricks-69feb20a42a7)
+ - [NGRX Docs](https://ngrx.io/docs)
+
+## OPT-4. Normalized NGRX
+
+*Prerequisite: OPT-3. Simple NGRX*
+
+Goal: Normalize the NGRX state.
+
+Required Reading:
+ - [Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
+ - [The benefits of application state normalization in Angular](https://blog.angularindepth.com/the-benefits-of-application-state-normalization-in-angular-f93392ca9f44)
+
+Online Shop:
+
+ > Split your application state into two parts:
+ >  - `data`: The portion which will hold the normalized data collections,
+ >  - `ui`: The portion which will hold the sub-states used in the app pages.
+ >
+ > Inside the `data` sub-tree, you should have a `products` map (between ID and the entity itself).
+ > For each product, you should also store an indicator if the product is fully loaded or just the header is loaded.
+ > You should only make a call to the backend if it is really necessary (if the entity / entity set is not loaded).
+ >
+ > Inside the `ui` sub-tree, you should never copy product data, just have the IDs to reference the corresponding 
+ > entry from the `data` sub-tree.
+ >
+ > You should define selectors to denormalize the data back to what you need in your pages.

@@ -55,7 +55,7 @@ app.delete('/products/:id', function (req, res) {
 
 app.post('/products', function (req, res) {
     const id = nextId++;
-    const product = copy(nextId, req.body || {});
+    const product = copy(id, req.body || {});
     products[id] = product;
     res.send(product);
 });
