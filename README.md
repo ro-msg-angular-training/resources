@@ -14,6 +14,8 @@
  - [6. Authorization and Guards](#6-authorization-and-guards)
  - [OPT-1. Material Components](#opt-1-use-material-components)
  - [OPT-2. Internationalization](#opt-2-internationalization)
+ - [OPT-3. Simple NGRX](#opt-3-simple-ngrx)
+ - [OPT-4. Normalized NGRX](#opt-4-normalized-ngrx)
 
 ## Working Mode
 
