@@ -16,6 +16,8 @@
  - [OPT-2. Internationalization](#opt-2-internationalization)
  - [OPT-3. Simple NGRX](#opt-3-simple-ngrx)
  - [OPT-4. Normalized NGRX](#opt-4-normalized-ngrx)
+ - [OPT-5. Unit Testing](#opt-5-unit-testing)
+ - [OPT-6. E2E Testing](#opt-6-e2e-testing)
 
 ## Working Mode
 
@@ -260,6 +262,7 @@ Online Shop:
 Further Resources:
  - [NGRX Tips and Tricks](https://blog.angularindepth.com/ngrx-tips-tricks-69feb20a42a7)
  - [NGRX Docs](https://ngrx.io/docs)
+ - [NGRX Example App](https://github.com/ngrx/platform/tree/master/projects/example-app/)
 
 ## OPT-4. Normalized NGRX
 
@@ -285,3 +288,47 @@ Online Shop:
  > entry from the `data` sub-tree.
  >
  > You should define selectors to denormalize the data back to what you need in your pages.
+
+## OPT-5. Unit Testing
+
+Goal: Write some unit tests for some of your services and NGRX objects.
+
+Required Reading:
+
+ - [Angular: Testing](https://angular.io/guide/testing)
+ - [NGRX: Store Testing](https://ngrx.io/guide/store/testing)
+ - [NGRX: Effects Testing](https://ngrx.io/guide/effects/testing)
+
+Online Shop:
+
+ > Write tests for at least the following:
+ > - One of your services (preferably the one that handles user roles / authentication),
+ > - One of your components ([DOM test](https://angular.io/guide/testing#component-dom-testing); preferably for the product detail page - check that the title and description are present on the component as expected),
+ > - One of your reducers.
+ > - One of your effects.
+
+Further Resources:
+ - [Angular component testing with examples](https://medium.com/@bencabanes/angular-component-testing-with-examples-7c52b2b7035e)
+ - [NGRX Testing: Reducers](https://brianflove.com/2018/05/28/ngrx-testing-actions/)
+ - [NGRX Example App (has tests)](https://github.com/ngrx/platform/tree/master/projects/example-app/src/app/core)
+
+## OPT-6. E2E Testing
+
+Goal: write a couple of end-to-end tests.
+
+Required Reading:
+ - [Introduction to E2E Testing](https://coryrylan.com/blog/introduction-to-e2e-testing-with-the-angular-cli-and-protractor)
+
+Online Shop:
+
+ > Write at least one end-to-end test for the following flow:
+ >  - User opens the application,
+ >  - System redirects him to log-in,
+ >  - User logs in with a valid admin username and password,
+ >  - System redirects him to the product page,
+ >  - System shows a non-empty list of products,
+ >  - User clicks on one product,
+ >  - System shows that product's details.
+
+Further Resources:
+ - [Protractor Style Guide](https://github.com/CarmenPopoviciu/protractor-styleguide)
