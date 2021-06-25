@@ -1,23 +1,3 @@
-README.md
-Not shared
-Type
-Text
-Size
-16 KB
-Storage used
-16 KB
-Location
-My Drive
-Owner
-me
-Modified
-2 Jun 2021 by me
-Opened
-15:18 by me
-Created
-15:15 with Google Drive Web
-Add a description
-Viewers can download
 # Angular Training: Resources
 
 ## Contents
