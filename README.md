@@ -114,7 +114,7 @@ Goal: get a grip on the basics of Angular Components
 Required Reading:
 
 - [Introduction to components](https://angular.io/guide/architecture-components)
-- [Angular Components tutorial](https://www.tutorialspoint.com/angular6/angular6_components.html)
+- [Angular Components tutorial](https://www.tutorialspoint.com/angular7/angular7_components.htm)
 - [Debugging in Angular 1](https://angular.io/guide/test-debugging)
 - [Debugging in Angular 2](https://medium.com/@vamsivempati/a-guide-to-debugging-angular-applications-5a36bd88b4cf)
 
@@ -249,8 +249,9 @@ Online Shop:
 >  - Install the [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) Chrome plugin to be able to debug your store.
 
 Further Resources:
-- [NGRX Tips and Tricks](https://blog.angularindepth.com/ngrx-tips-tricks-69feb20a42a7)
 - [NGRX Docs](https://ngrx.io/docs)
+- [NGRX Tips and Tricks](https://medium.com/@praveenpuglia/practical-ngrx-effects-tips-tricks-1935509c9fb6)
+- [NGRX Best Practices](https://indepth.dev/posts/1451/ngrx-best-practices-new)
 - [NGRX Example App](https://github.com/ngrx/platform/tree/master/projects/example-app/)
 
 ## Chapter 8 Use Material Components [1h - 2h]
@@ -287,7 +288,7 @@ Goal: Normalize the NGRX state.
 
 Required Reading:
 - [Normalizing State Shape](https://redux.js.org/recipes/structuring-reducers/normalizing-state-shape)
-- [The benefits of application state normalization in Angular](https://blog.angularindepth.com/the-benefits-of-application-state-normalization-in-angular-f93392ca9f44)
+- [The benefits of application state normalization in Angular](https://medium.com/angular-in-depth/the-benefits-of-application-state-normalization-in-angular-f93392ca9f44)
 
 Online Shop:
 
@@ -324,7 +325,7 @@ Online Shop:
 
 Further Resources:
 - [Angular component testing with examples](https://medium.com/@bencabanes/angular-component-testing-with-examples-7c52b2b7035e)
-- [NGRX Testing: Reducers](https://brianflove.com/2018/05/28/ngrx-testing-actions/)
+- [NGRX Testing: Guide](https://christianlydemann.com/the-complete-guide-to-ngrx-testing/)
 - [NGRX Example App (has tests)](https://github.com/ngrx/platform/tree/master/projects/example-app/src/app/core)
 
 ## OPT-4. E2E Testing
