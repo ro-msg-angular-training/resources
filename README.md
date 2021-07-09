@@ -74,6 +74,9 @@ Required Reading:
 - [HTML Beginner Guide](https://www.htmldog.com/guides/html/beginner/)
 - [CSS Beginner Guide](https://www.htmldog.com/guides/css/beginner/)
 - [Git Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
+- [SASS Basics](https://sass-lang.com/guide)
+- [SCSS Basics](https://medium.com/web-development-articles/scss-basics-279ce9c0acb8)
+- [SCSS In Angular](https://medium.com/swlh/how-to-structure-scss-in-an-angular-app-a1b8a759a028)
 
 Online Shop: *nothing to do*.
 
