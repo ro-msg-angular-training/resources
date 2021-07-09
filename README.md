@@ -57,6 +57,7 @@ Mockups describing the user interface structure can be found in the [mockups](./
 These mockups should be used as a guideline, but improvements or deviations from them is allowed.
 
 ## Timeline
+This timeline is just for guidance, take time to understand the concepts before moving on.
 
 - **Day 1**: Chapter 0, Chapter 1, Chapter 2
 - **Day 2**: Chapter 3, Chapter 4
