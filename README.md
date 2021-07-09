@@ -13,8 +13,8 @@
 - [4. Services using HttpClient](#4-services-using-httpclient-3h)
 - [5. Forms and Validation](#5-forms-and-validation-3h)
 - [6. Authorization and Guards](#6-authorization-and-guards-3h)
-- [7. Simple NGRX](#chapter-7-simple-ngrx-6h)
-- [8. Material Components](#chapter-8-use-material-components-1h---2h)
+- [7. Simple NGRX](#7-simple-ngrx-6h)
+- [8. Material Components](#8-use-material-components-1h---2h)
 - [OPT-1. Internationalization](#opt-1-internationalization)
 - [OPT-2. Normalized NGRX](#opt-2-normalized-ngrx)
 - [OPT-3. Unit Testing](#opt-3-unit-testing)
@@ -227,7 +227,7 @@ Further Resources:
 
 - [Angular Role-based Authorization](https://jasonwatmore.com/post/2018/11/22/angular-7-role-based-authorization-tutorial-with-example)
 
-## Chapter 7 Simple NGRX [6h]
+## 7. Simple NGRX [6h]
 
 Goal: Use NGRX for state management.
 
@@ -255,7 +255,7 @@ Further Resources:
 - [NGRX Best Practices](https://indepth.dev/posts/1451/ngrx-best-practices-new)
 - [NGRX Example App](https://github.com/ngrx/platform/tree/master/projects/example-app/)
 
-## Chapter 8 Use Material Components [1h - 2h]
+## 8. Use Material Components [1h - 2h]
 
 Required Reading:
 
