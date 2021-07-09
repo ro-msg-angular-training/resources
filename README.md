@@ -6,7 +6,7 @@
 - [Environment](#environment)
 - [Online Shop](#online-shop)
 - [Timeline](#timeline)
-- [0. HTML and CSS Basics](#0-html-and-css-basics-1h---2h)
+- [0. HTML and CSS/SCSS Basics](#0-html-and-css-scss-basics-1h---2h)
 - [1. Angular Intro](#1-angular-intro-1h---2h)
 - [2. Components](#2-components-3h---4h)
 - [3. Routing](#3-routing-3h)
@@ -65,7 +65,7 @@ This timeline is just for guidance, take time to understand the concepts before 
 - **Day 4**: Chapter 7, Chapter 8
 - **Day 5**: Review Remarks && Corrections, Optional Chapters
 
-## 0. HTML and CSS Basics [1h - 2h]
+## 0. HTML and CSS/SCSS Basics [1h - 2h]
 
 Goal: refresh your knowledge about HTML and CSS basic concepts.
 
