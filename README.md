@@ -161,8 +161,8 @@ Online Shop:
 
 Further Resources:
 
-- [Routing with Observable](https://angular.io/guide/router#activated-route-in-action)
-- [Route guards: protecting your app's routes](https://angular.io/guide/router#milestone-5-route-guards)
+- [Routing with Observables: Accessing query parameters and fragments](https://angular.io/guide/router#accessing-query-parameters-and-fragments)
+- [Route guards: Preventing unauthorized access](https://angular.io/guide/router#preventing-unauthorized-access)
 
 ## 4. Services using HttpClient [3h]
 
@@ -216,7 +216,7 @@ Goal: get familiar with Route Guards and protect your app's routes from unauthor
 
 Required Reading:
 
-- [Route Guards](https://angular.io/guide/router#milestone-5-route-guards)
+- [Route Guards](https://angular.io/guide/router-tutorial-toh#milestone-5-route-guards)
 
 Online Shop:
 
