@@ -337,7 +337,9 @@ Further Resources:
 Goal: write a couple of end-to-end tests.
 
 Required Reading:
-- [Introduction to E2E Testing](https://coryrylan.com/blog/introduction-to-e2e-testing-with-the-angular-cli-and-protractor)
+- [Introduction to E2E Testing](https://testing-angular.com/end-to-end-testing/#end-to-end-testing)
+- [Cypress and Angular: Getting Started](https://medium.com/angular-in-depth/get-started-with-cypress-d6ac4b910605)
+- [Getting started with Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 Online Shop:
 
@@ -349,9 +351,6 @@ Online Shop:
 >  - System shows a non-empty list of products,
 >  - User clicks on one product,
 >  - System shows that product's details.
-
-Further Resources:
-- [Protractor Style Guide](https://github.com/CarmenPopoviciu/protractor-styleguide)
 
 ## OPT-5. Component Library Development
 
