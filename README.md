@@ -102,14 +102,16 @@ Goal: refresh your knowledge about HTML and CSS basic concepts.
 
 #### Required:
 
-*Videos:*
+*Videos*
 
 1. [HTML in 100 Seconds](https://www.youtube.com/watch?v=ok-plXXHlWw)
 2. [CSS in 100 Seconds](https://www.youtube.com/watch?v=OEV8gMkCHXQ)
 3. [JavaScript in 100 Seconds](https://www.youtube.com/watch?v=DHjqpvDnNGE)
 4. [TypeScript in 100 Seconds](https://www.youtube.com/watch?v=zQnBQ4tB3ZA)
+5. [Git Crash Course](https://www.youtube.com/watch?v=HkdAHXoRtos)
 
 *Reading:*
+
 - [HTML Beginner Guide](https://www.htmldog.com/guides/html/beginner/)
 - [CSS Beginner Guide](https://www.htmldog.com/guides/css/beginner/)
 - [Git Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics)
@@ -140,6 +142,7 @@ Goal: refresh your knowledge about HTML and CSS basic concepts.
 1. [Angular in 100 Seconds](https://www.youtube.com/watch?v=Ata9cSC2WpM)
 
 *Reading*
+
 - [Single vs Multiple Page Applications](https://medium.com/@NeotericEU/single-page-application-vs-multiple-page-application-2591588efe58)
 - [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - [Angular Quick Start](https://angular.io/start)
