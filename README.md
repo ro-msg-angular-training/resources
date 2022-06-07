@@ -109,7 +109,6 @@ Goal: refresh your knowledge about HTML and CSS basic concepts.
 - [W3's Intro Tutorial](https://www.w3.org/Style/Examples/011/firstcss.en.html)
 - [GitHub - Hello World](https://guides.github.com/activities/hello-world/)
 - [Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [BEM: Block Element Modifier](http://getbem.com)
 
