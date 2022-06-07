@@ -13,7 +13,7 @@
 - [4. Services using HttpClient](#4-services-using-httpclient-3h)
 - [5. Forms and Validation](#5-forms-and-validation-3h)
 - [6. Authorization and Guards](#6-authentication-authorization-and-guards-3h)
-- [7. Simple NGRX](#7-simple-ngrx-6h)
+- [7. Simple NgRx](#7-simple-ngrx-6h)
 - [8. Material Components](#8-use-material-components-1h---2h)
 - [OPT-1. Internationalization](#opt-1-internationalization)
 - [OPT-2. Normalized NGRX](#opt-2-normalized-ngrx)
@@ -379,7 +379,7 @@ For the moment, we will use mock data across all components. The data will be de
 - [Internationalization Example](https://angular.io/guide/i18n-example)
 - [How To Use Internationalization (i18n) in Angular](https://www.digitalocean.com/community/tutorials/angular-internationalization)
 
-## OPT-2. Normalized NGRX
+## OPT-2. Normalized NgRx
 
 
 **Goal:** Normalize the NGRX state.
