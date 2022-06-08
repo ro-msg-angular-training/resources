@@ -40,7 +40,7 @@ Commits must be pushed when each individual chapter is finished.
 
 You can work using your local environment:
 - You need to install [NodeJS](https://nodejs.org/en/) and [VSCode](https://code.visualstudio.com/download).
-- You can use [Webstorm 30 Day Trial](https://www.jetbrains.com/webstorm/) as an alternative to VSCode
+- You can use [Webstorm](https://www.jetbrains.com/webstorm/) as an alternative to VSCode
 - You need to have [Git](https://git-scm.com) installed on your computer. Have a look at [this video](https://www.youtube.com/watch?v=HkdAHXoRtos) for a quick crash course.
 
 In the `backend` folder you can find a server-side implementation for the online shop. To run this server perform the following:
