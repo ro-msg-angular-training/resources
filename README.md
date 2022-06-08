@@ -4,7 +4,6 @@
 
 - [Working Mode](#working-mode-must-read)
 - [Environment](#environment)
-- [Time Bookings](#time-bookings)
 - [Online Shop](#online-shop)
 - [Timeline](#timeline)
 - [0. HTML and CSS/SCSS Basics](#0-html-and-cssscss-basics-1h---2h)
@@ -49,22 +48,6 @@ In the `backend` folder you can find a server-side implementation for the online
 - `npm ci` (only needed the first time your run the server)
 - `npm start`
 - Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-
-## Time Bookings
-
-Use the following booking codes to track activities:
-
-| Booking Code | Activity |
-|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Angular Training - Learning. | Going through the learning material; tutorials; doing own theoretical investigations; attending presentations. |
-| Angular Training - Implementation | Online shop implementation. |
-| Angular Training - Meetings | Regular calls, internal discussions (on-boarding, off-boarding). |
-
-In the booking description, please use the following format: `Chapter: Brief activity description`, for the regular calls, simply state the name of the meeting.
-
-Examples: `1: Reading about dependency injection, spring basics`, `2: Setting up the project.`.
-
 
 ## Online Shop
 The application will simply browse through a catalog of products. It will support:
