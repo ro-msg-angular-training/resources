@@ -291,7 +291,7 @@ For the moment, we will use mock data across all components. The data will be de
 - [Route Guards](https://angular.io/guide/router-tutorial-toh#milestone-5-route-guards)
 
 *Notes*
-- At this point, you will not have a Cookie or a JWT to use for authentication. You will need to keep the `username` and the `password` in our code somewhere in an unsafe way (for authentication persistance check this: [localstorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)).
+- At this point, you will not have a Cookie or a JWT to use for authentication if you use the MockServer. You will need to keep the a `isLoggedIn` flag somewhere (for authentication persistance check [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and view the data in your Browser `Developer Tools/Application`).
 
 #### Online Shop:
 
