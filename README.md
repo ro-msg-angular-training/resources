@@ -238,7 +238,7 @@ For the moment, we will use mock data across all components. The data will be de
 >
 > Add a new "Delete" button on the detail page, which calls the backend to remove a product from the catalogue.
 >
-> Add a new "Checkout" button on the shopping cart page, which creates a new order on the backend. **Note**: The response type of this request may require you to set the `responseType` flag on your request as here `this.httpClient.post('/api/orders', data, { responseType: 'text' })`. For more info [check this](https://angular.io/guide/http#requesting-data-from-a-server).
+> Add a new "Checkout" button on the shopping cart page, which creates a new order on the backend. **Note**: The response of this request may require you to set the `responseType` flag on the HttpClient options parameters as here `this.httpClient.post('/api/orders', data, { responseType: 'text' })`. For more info [check this](https://angular.io/guide/http#requesting-data-from-a-server).
 
 #### Further Resources (Optional):
 
@@ -292,6 +292,7 @@ For the moment, we will use mock data across all components. The data will be de
 
 *Notes*
 - At this point, you will not have a Cookie or a JWT to use for authentication if you use the MockServer. You will need to keep the a `isLoggedIn` flag somewhere (for authentication persistance check [localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) and view the data in your Browser `Developer Tools/Application`).
+- If you are testing this against a real backend which uses cookie session authentication, you can use the [HttpClient options parameters](https://angular.io/guide/http#requesting-data-from-a-server) `withCredentials?: boolean` on each of your requests to automatically *persist/send* the received cookies each time you send them. 
 
 #### Online Shop:
 
