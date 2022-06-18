@@ -306,6 +306,7 @@ For the moment, we will use mock data across all components. The data will be de
 
 - [Angular Role-based Authorization](https://jasonwatmore.com/post/2018/11/22/angular-7-role-based-authorization-tutorial-with-example)
 - [Angular Authentication: Using Route Guards](https://medium.com/@ryanchenkie_40935/angular-authentication-using-route-guards-bf7a4ca13ae3)
+- [Angular Interceptors](https://angular.io/guide/http#intercepting-requests-and-responses)
 
 ## 7. Simple NgRx [6h]
 
