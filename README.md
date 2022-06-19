@@ -93,6 +93,10 @@ Goal: refresh your knowledge about HTML and CSS basic concepts.
 4. [TypeScript in 100 Seconds](https://www.youtube.com/watch?v=zQnBQ4tB3ZA)
 5. [Git Crash Course](https://www.youtube.com/watch?v=HkdAHXoRtos)
 
+*Game (Optional)*
+
+1. [Learning Git Game](https://learngitbranching.js.org)
+
 *Reading:*
 
 - [HTML Beginner Guide](https://www.htmldog.com/guides/html/beginner/)
