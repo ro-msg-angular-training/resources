@@ -312,6 +312,8 @@ For the moment, we will use mock data across all components. The data will be de
 
 **Goal:** Use NgRx for state management.
 
+**Note:** Communicate with your mentor about this step, do no get stuck and try to do everthing by yourself.
+
 #### Required:
 
 *Videos*
@@ -321,6 +323,26 @@ For the moment, we will use mock data across all components. The data will be de
 *Reading*
 
 - [Angular: NgRx a clean and clear Introduction](https://medium.com/frontend-fun/angular-ngrx-a-clean-and-clear-introduction-4ed61c89c1fc)
+  - Take note to use the latest variants of creating actions, selectors, reducers and effects as per documentation:
+    - Actions: `export const increment = createAction('[Counter Component] Increment');`
+    - Reducers:
+    ```
+      export const counterReducer = createReducer(
+        initialState,
+        on(increment, (state) => state + 1),
+        on(decrement, (state) => state - 1),
+        on(reset, (state) => 0)
+      );
+     ```
+     - Selectors:
+     ```
+      export const selectFeature = (state: AppState) => state.feature;
+
+      export const selectFeatureCount = createSelector(
+        selectFeature,
+        (state: FeatureState) => state.counter
+      );
+     ```
 - [NgRx: Store - Reducers, Actions](https://ngrx.io/guide/store)
 - [NgRx: Effects](https://ngrx.io/guide/effects)
 - [NgRx Docs](https://ngrx.io/docs)
