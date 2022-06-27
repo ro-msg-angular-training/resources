@@ -30,7 +30,7 @@ The road-map consists of several steps. In each step, a set of theoretical conce
 After the learning material for a given step was sufficiently explored, either some new functionality will be added to this application or old functionality will be refactored.
 
 All the code written must be published on GitHub. Access [this link](https://classroom.github.com/a/xWWQ0td5) to create your own repository. 
-Commits must be pushed when each individual chapter is finished. Create a `develop` branch from the `master` branch **before starting work**.
+Commits must be pushed when each individual chapter is finished. [Create](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) a `develop` branch from the `master` branch **before starting work**.
 
 **In order to request a code review from the trainers**, you must [open a pull request](https://help.github.com/en/articles/creating-a-pull-request) from the `develop` to the `master` branch. Inform them in your **daily standup** of this or through a PM.
 **Once the Pull Request is approved** by the trainers, merge it into master and create another branch from master to continue work.
