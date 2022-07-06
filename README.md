@@ -66,18 +66,18 @@ Mockups describing the user interface structure can be found in the [mockup's](.
 These mockups should be used as a guideline, but improvements or deviations from them is allowed.
 
 ### Notes:
-- If you find any link broken, **please** inform your mentor to give you an alternative
-- Try to speed up the videos to *1.5x/2x* if you find them too slow
-- Try to connect to the Backend from the Spring Training (you might need to change the port of your requests)
+- If you find any link broken, **please** inform your mentor to give you an alternative.
+- Try to speed up the videos to *1.5x/2x* if you find them too slow.
+- Try to connect to the Backend from the Spring Training if you have training completed (you might need to change the port for your requests)
 
 ## Timeline
 This timeline is just for guidance, take time to understand the concepts before moving on.
 
 - **Day 1**: Chapter 0, Chapter 1, Chapter 2
 - **Day 2**: Chapter 3, Chapter 4, **Open a Pull Request**
-- **Day 3**: Fix Review Remarks, Chapter 5, Chapter 6
+- **Day 3**: Fix Review Remarks => Merge to Master => Create a new branch, Chapter 5, Chapter 6
 - **Day 4**: Chapter 7, Chapter 8, **Open a Pull Request**
-- **Day 5**: Fix Review Remarks && Corrections, Optional Chapters
+- **Day 5**: Fix Review Remarks && Corrections => Merge to Master, Optional Chapters
 
 ## 0. HTML and CSS/SCSS Basics [1h - 2h]
 
