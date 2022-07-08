@@ -77,7 +77,7 @@ This timeline is just for guidance, take time to understand the concepts before 
 - **Day 2**: Chapter 3, Chapter 4, **Open a Pull Request**
 - **Day 3**: Fix Review Remarks => Merge to Master => Create a new branch, Chapter 5, Chapter 6
 - **Day 4**: Chapter 7, Chapter 8, **Open a Pull Request**
-- **Day 5**: Fix Review Remarks && Corrections => Merge to Master, Optional Chapters
+- **Day 5**: Catchup & Optional Chapters
 
 ## 0. HTML and CSS/SCSS Basics [1h - 2h]
 
