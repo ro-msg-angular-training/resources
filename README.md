@@ -312,7 +312,7 @@ For the moment, we will use mock data across all components. The data will be de
 
 **Goal:** Use NgRx for state management.
 
-**Note:** Communicate with your mentor about this step, do no get stuck and try to do everthing by yourself.
+**Note:** Communicate with your mentor about this step, do no get stuck and try to do everything by yourself.
 
 #### Required:
 
